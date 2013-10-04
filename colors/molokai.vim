@@ -74,8 +74,8 @@ if has("spell")
 	hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
 hi Statement       guifg=#F92672               gui=none
-hi StatusLine      guifg=#1B1D1E guibg=#FFFFFF
-hi StatusLineNC    guifg=#1B1D1E guibg=#808080
+hi StatusLine      guifg=#FFFFFF guibg=#1B1D1E gui=none
+hi StatusLineNC    guifg=#808080 guibg=#1B1D1E gui=none
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
@@ -95,7 +95,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#F8F8F2 guibg=black
+hi Normal          guifg=#D8D8D2 guibg=black
 hi Comment         guifg=#7E8E91
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FFFFFF
